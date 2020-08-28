@@ -1,0 +1,80 @@
+h2 {
+  margin: 0;
+}
+
+.services-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.services-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+
+  &-items:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &-items {
+    position: relative;
+  }
+}
+
+.services-description {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.overlay-one {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-two {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-three {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.overlay-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 27px;
+}

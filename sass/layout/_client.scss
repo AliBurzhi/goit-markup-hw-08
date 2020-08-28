@@ -1,0 +1,82 @@
+.clients-title {
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 85px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 94px;
+}
+
+.clients-link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+  }
+  &:hover .clients-list-item-link-svg,
+  &:focus .clients-list-item-link-svg {
+    fill: #2196f3;
+  }
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list-item-link-svg {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list-item:nth-child(1) .clients-list-item-link-svg {
+  width: 45px;
+  height: 50px;
+}
+
+.clients-list-item:nth-child(2) .clients-list-item-link-svg {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-list-item:nth-child(3) .clients-list-item-link-svg {
+  width: 41px;
+  height: 43px;
+}
+
+.clients-list-item:nth-child(4) .clients-list-item-link-svg {
+  width: 80px;
+  height: 43px;
+}
+
+.clients-list-item:nth-child(5) .clients-list-item-link-svg {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-list-item:nth-child(6) .clients-list-item-link-svg {
+  width: 89px;
+  height: 46px;
+}
