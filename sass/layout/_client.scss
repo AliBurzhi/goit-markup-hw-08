@@ -16,7 +16,7 @@
   align-items: center;
   padding-bottom: 94px;
 }
-
+/*
 .clients-link-list {
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@
     fill: #2196f3;
   }
 }
-
+*/
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -79,4 +79,19 @@
 .clients-list-item:nth-child(6) .clients-list-item-link-svg {
   width: 89px;
   height: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .clients-link {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+/*
+@media screen and (min-width: 768px) {
+  .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
