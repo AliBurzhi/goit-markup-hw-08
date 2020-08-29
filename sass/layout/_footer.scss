@@ -63,7 +63,7 @@
 .social-links {
   display: flex;
 }
-
+/*
 .footer-join-us {
   font-family: Roboto;
   font-style: normal;
@@ -75,7 +75,7 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
-
+*/
 .social-links-item-link:nth-child(1) .footer-list-item-link-svg {
   width: 20px;
   height: 20px;
@@ -127,7 +127,7 @@
 }
 
 /*FOOTER FORM */
-
+/*
 .footer-form {
   margin-right: 470px;
 }
@@ -136,7 +136,7 @@
   display: flex;
   justify-content: space-between;
 }
-
+*/
 .contact-form-btn {
   margin-left: 12px;
   width: 200px;
@@ -165,11 +165,6 @@
   padding-left: 16px;
 }
 
-.container-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contact-form-btn {
   font-family: Roboto;
   font-style: normal;
@@ -194,7 +189,86 @@
 }
 
 @media screen and (max-width: 767px) {
-  .container {
+  .footer {
+    width: 480px;
+  }
+
+  .footer .container {
     display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container-address {
+    margin-bottom: 60px;
+  }
+
+  .social-links {
+    margin-left: 100px;
+  }
+
+  .desctext {
+    margin-left: 60px;
+    text-align: center;
+  }
+
+  .social-links {
+    margin-bottom: 60px;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-footer-form {
+    padding-left: 100px;
+  }
+
+  .contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-form-input {
+    margin-bottom: 20px;
+  }
+
+  .contact-form-btn {
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+    margin-top: 30px;
+    color: #fff;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
