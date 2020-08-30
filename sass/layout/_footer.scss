@@ -129,16 +129,18 @@
 /*FOOTER FORM */
 
 .footer-form {
-  margin-right: 470px;
+  margin: auto;
+  text-align: center;
 }
 
 .contact-form {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .contact-form-btn {
-  margin-left: 12px;
+  margin: 30px auto;
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -255,7 +257,14 @@
   }
 }
 
-@media screnn and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-form {
+    margin: 0 470px 0 0;
+  }
+  .contact-form {
+    flex-direction: row;
+  }
+  .contact-form-btn {
+    margin: 0 0 0 12px;
   }
 }
