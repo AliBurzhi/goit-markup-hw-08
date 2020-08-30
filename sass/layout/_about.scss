@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
 }
-/*
+
 .about-us-list:not(:last-child) {
   margin-right: 30px;
   margin-top: 0;
@@ -107,14 +107,18 @@
 
 @media screen and (min-width: 768px) {
   .about-us-section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 
-  .about-us-list {
+  .about-us {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 60px;
+  }
+
+  .about-us-list {
+    width: 354px;
+    height: 221px;
+    margin-right: 10px;
   }
 
   .about-us-img-back {
