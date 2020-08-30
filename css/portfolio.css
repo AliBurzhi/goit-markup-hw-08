@@ -533,15 +533,10 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header {
+    width: 100%;
     border-bottom: 1px solid #ececec;
     padding: 0;
-    margin: auto;
-  }
-  .header-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
+    max-width: 2000px;
   }
   .navigation-list {
     display: flex;
