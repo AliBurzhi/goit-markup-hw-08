@@ -18,45 +18,61 @@
   <body>
     <!--ШАПКА САЙТА-->
     <header class="header">
-      <div class="container">
-        <nav class="navigation">
-          <a class="logo-img" href="index.html" lang="en"
-            ><span class="logo-first-title">Web</span>
-            <span class="logo-second-title">Studio</span></a
-          >
-          <ul class="navigation-list list">
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="index.html">Студия</a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link current link" href="portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="contacts-header">
-          <ul class="header-list">
-            <li>
-              <a class="header-address-link" href="">
-                <svg class="header-svg">
-                  <use href="./images/sprite.svg#mail"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li>
-              <a class="header-address-link" href="">
-                <svg class="header-svg">
-                  <use href="./images/sprite.svg#phone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
+      <div class="container header-container">
+        <a class="logo-img" href="index.html" lang="en"
+          ><span class="logo-first-title">Web</span>
+          <span class="logo-second-title">Studio</span>
+        </a>
+        <button
+          type="button"
+          class="menu-btn"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+          data-menu-button
+        >
+          <svg width="20" height="20">
+            <use class="icon-burger" href="./images/sprite.svg#icon-menu"></use>
+            <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="menu-wrapper" data-menu>
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-list-item">
+                <a class="navigation-list-link current link" href="index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts-header">
+            <ul class="header-list list">
+              <li class="header-list-item">
+                <a class="header-address-link" href="">
+                  <svg class="header-svg">
+                    <use href="./images/sprite.svg#mail"></use>
+                  </svg>
+                  info@devstudio.com</a
+                >
+              </li>
+              <li class="header-list-item">
+                <a class="header-address-link" href="">
+                  <svg class="header-svg">
+                    <use href="./images/sprite.svg#phone"></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>

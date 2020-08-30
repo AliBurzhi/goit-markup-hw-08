@@ -80,7 +80,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .clients-list {
     display: flex;
     flex-wrap: wrap;
@@ -92,9 +91,28 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .clients-list-item:last-child {
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .clients-list {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .clients-list-item {
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-list-item:last-child {
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 }
