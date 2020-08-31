@@ -120,4 +120,11 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
+  .clients-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  li.clients-list-item:nth-child(2n) {
+    margin-right: 30px;
+  }
 }
