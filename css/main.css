@@ -1024,6 +1024,12 @@ h2 {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .services-section {
+    display: flex;
+  }
+}
+
 h3 {
   margin: 0;
 }
