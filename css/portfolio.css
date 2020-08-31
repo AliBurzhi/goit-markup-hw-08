@@ -887,6 +887,7 @@ img {
 
 .social-links {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .footer-join-us {
@@ -1081,6 +1082,18 @@ img {
     margin-bottom: 30px;
   }
   .footer-container-connect {
+    margin: auto;
+  }
+  .contact-form-btn {
+    padding: 0;
+  }
+  .desctext {
+    margin-left: 30px;
+  }
+  .logo-footer-distance {
+    margin-left: 25px;
+  }
+  .contact-list {
     margin: auto;
   }
 }
