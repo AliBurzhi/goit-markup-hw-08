@@ -20,13 +20,7 @@
           ><span class="logo-first-title">Web</span>
           <span class="logo-second-title">Studio</span>
         </a>
-        <button
-          type="button"
-          class="menu-btn"
-          aria-expanded="false"
-          aria-controls="menu-wrapper"
-          data-menu-button
-        >
+        <button type="button" class="menu-btn" data-menu-button>
           <svg width="20" height="20">
             <use class="icon-burger" href="./images/sprite.svg#icon-menu"></use>
             <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
@@ -152,7 +146,6 @@
               <img
                 alt="Десктопные приложения"
                 src="./images/products/product-1.jpg"
-                srcset=""
               />
               <div class="overlay-one">
                 <p class="overlay-text">Десктопные приложения</p>
@@ -186,13 +179,25 @@
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teamate-1.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team1desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team1tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team1mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-1.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Николай Кучеренко</h3>
               <p class="team-list-item-position">Product Designer</p>
               <ul class="social-list list">
@@ -227,13 +232,25 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teammate-2.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team2desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team2tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team2mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-2.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Ольга Иванова</h3>
               <p class="team-list-item-position">Frontend Developer</p>
               <ul class="social-list list">
@@ -271,13 +288,36 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teammate-3.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/img-team3desc.jpg 1x,
+                    ./images/team/img-team3desc@2x  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img-team3tablet.jpg 1x,
+                    ./images/team/img-team3tablet@2x  2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img-team3mob.jpg 1x,
+                    ./images/team/img-team3mob@2x  2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-3.jpg"
+                  alt="участник команды"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <h3 class="team-name-title">Андрей Шевченко</h3>
               <p class="team-list-item-position">Marketing</p>
               <ul class="social-list list">
@@ -315,13 +355,36 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teamate-4.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/img-team4desc.jpg 1x,
+                    ./images/team/img-team4desc@2x  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img-team4tablet.jpg 1x,
+                    ./images/team/img-team4tablet@2x  2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/img-team4mob.jpg 1x,
+                    ./images/team/img-team4mob@2x  2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-4.jpg"
+                  alt="участник команды"
+                  width="270"
+                  height="260"
+                />
+              </picture>
               <h3 class="team-name-title">Иван Николаев</h3>
               <p class="team-list-item-position">UI Designer</p>
               <ul class="social-list list">
