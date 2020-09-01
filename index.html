@@ -20,13 +20,7 @@
           ><span class="logo-first-title">Web</span>
           <span class="logo-second-title">Studio</span>
         </a>
-        <button
-          type="button"
-          class="menu-btn"
-          aria-expanded="false"
-          aria-controls="menu-wrapper"
-          data-menu-button
-        >
+        <button type="button" class="menu-btn" data-menu-button>
           <svg width="20" height="20">
             <use class="icon-burger" href="./images/sprite.svg#icon-menu"></use>
             <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
@@ -150,8 +144,8 @@
           <ul class="services-list list">
             <li class="services-list-items">
               <img
-                src="./images/products/product-1.jpg"
                 alt="Десктопные приложения"
+                src="./images/products/product-1.jpg"
               />
               <div class="overlay-one">
                 <p class="overlay-text">Десктопные приложения</p>
@@ -185,13 +179,25 @@
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teamate-1.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team1desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team1tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team1mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-1.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Николай Кучеренко</h3>
               <p class="team-list-item-position">Product Designer</p>
               <ul class="social-list list">
@@ -226,13 +232,25 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teammate-2.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team2desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team2tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team2mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-2.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Ольга Иванова</h3>
               <p class="team-list-item-position">Frontend Developer</p>
               <ul class="social-list list">
@@ -270,13 +288,25 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teammate-3.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team3desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team3tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team3mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-3.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Андрей Шевченко</h3>
               <p class="team-list-item-position">Marketing</p>
               <ul class="social-list list">
@@ -314,13 +344,25 @@
               </ul>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/teamate-4.jpg"
-                alt="участник команды"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/img-team4desc.jpg"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/team/img-team4tablet.jpg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/team/img-team4mob.jpg"
+                  media="(max-width: 480px)"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/teamate-4.jpg"
+                  alt="участник команды"
+                />
+              </picture>
               <h3 class="team-name-title">Иван Николаев</h3>
               <p class="team-list-item-position">UI Designer</p>
               <ul class="social-list list">
@@ -498,7 +540,11 @@
             />
             <button type="submit" class="contact-form-btn">Подписаться</button>
           </form>
+<<<<<<< HEAD
         </div>  -->
+=======
+        </div>
+>>>>>>> f0751d0765847d8e0fbc677a43f3a0c269abbce9
       </div>
 
       <!-- Модальное окно -->
@@ -577,12 +623,10 @@
               </span>
             </label>
           </div>
-
           <button type="submit" class="modal-form-button">Отправить</button>
         </form>
       </div>
     </footer>
-    -->
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>
