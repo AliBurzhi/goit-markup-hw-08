@@ -392,11 +392,6 @@ img {
   padding-bottom: 16px;
   position: relative;
   border-bottom: 1px solid #ececec;
-  /*
-  &-list-item {
-    margin-bottom: 10px;
-  }
-  */
 }
 
 .header-address-link {
@@ -419,6 +414,10 @@ img {
 
 .header-address-link {
   text-decoration: none;
+}
+
+.header-list-item {
+  margin-bottom: 10px;
 }
 
 .header-container {
